@@ -8,6 +8,7 @@ public class Caluculation_With_ParseXXX_Method {
 		String d2 = "4.09";
 		
 		double output = (Double.parseDouble(d1)/Double.parseDouble(d2)); //3.040342298288509
+		System.out.println(output);
 		
 //	formating the String : Double.valueOf(output) will convert double to Double
 	String out = String.format("%.2f", Double.valueOf(output));
@@ -18,6 +19,7 @@ public class Caluculation_With_ParseXXX_Method {
 	
 	double D1 = Double.valueOf(out);
 	System.out.println(D1);//3.04
-		}
+		
+	}
 
 }

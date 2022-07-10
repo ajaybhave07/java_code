@@ -1,13 +1,16 @@
-package com.S.Strreams;
+package com.S.Streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class AddAllNumber {
-
+public class Ex_06_Stream {
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		//most used in project
+		//to find sum of values
+		
 		List<Integer> number = Arrays.asList(1,2,3,4,5,6,7);
 		List<Double> doubleNumber = new ArrayList<Double>();
 		
@@ -33,6 +36,6 @@ public class AddAllNumber {
 		//changing the format of the decimal precision
 		doubleSum =Double.valueOf(String.format("%.2f", Double.valueOf(doubleSum)));
 		System.out.println("double sum is : "+doubleSum);
-		}
+	}
 
 }

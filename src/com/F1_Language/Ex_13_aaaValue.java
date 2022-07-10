@@ -7,7 +7,6 @@ public class Ex_13_aaaValue {
 	 * Wrapper -------> primitive 
 	 * 
 	 */
-
 	public static void main(String[] args) {
 
 		Double d1 = Double.valueOf(12.44);
@@ -25,9 +24,7 @@ public class Ex_13_aaaValue {
 		  Boolean b = Boolean.valueOf("ajay");
 		  boolean b2 = b.booleanValue();
 		  System.out.println(b2); //false
-		  
-		  
-		
+	
 	}
 
 }
